@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
+	ui:generateLocales='default'>
+
+	<g:HTMLPanel>
+		<g:Label text="usuário" ui:field="usernameLabel"></g:Label>
+		<g:TextBox ui:field="usernameTextBox"></g:TextBox>
+		<br/>
+		<g:Label text="senha" ui:field="passwordLabel"></g:Label>
+		<g:PasswordTextBox ui:field="passwordTextBox"></g:PasswordTextBox>
+		<br/>
+		<g:Button text="enviar" ui:field="submitButton"></g:Button>
+		<g:HTMLPanel ui:field="widgetContent"/>
+	</g:HTMLPanel>
+</ui:UiBinder>
